@@ -11,14 +11,9 @@ app.get('/',(req,res)=>{
 app.get('/addTwoNumbers',(req,res)=>{
     let value1 = req.query.num1;
     let value2 = req.query.num2;
-
     let result =  parseInt(value1) + parseInt(value2);
-
     let response = {data: result, statusCode: 200, message: 'successful'};
-
     res.json(response);
-
-
 
 })
 
