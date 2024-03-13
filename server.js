@@ -16,7 +16,7 @@ app.get('/addTwoNumbers',(req,res)=>{
 
     let response = {data: result, statusCode: 200, message: 'successful'};
 
-    res.json(response.data);
+    res.json(response);
 
 
 
